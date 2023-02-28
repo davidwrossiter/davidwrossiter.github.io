@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Abhaya;
+    src: url('/files/fonts/Abhaya\ Libre\ Medium.ttf')format("TTF");
+    font-weight: 400;
+}
+
+header h1 {
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+    font-family: genos;
+    font-size: 50px;
+
+}
+
+hr {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.selectors {
+    text-align: center;
+    font-family: genos;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
+.selectors li {
+    display: inline;
+    padding: 0px 10px 0px 20px;
+}
+
+.main-image {
+    width: 100%;
+    height: 300px
+}
+
+#fonts {
+    text-align: center;
+    font-family: quattrocento;
+    font-size: 30px;
+    margin: 50px;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+/* Teko */
+
+.teko {
+    font-family: teko;
+    font-weight: 300;
+}
+.teko h1 {
+    padding-left: 300px;
+}
+
+.teko p {
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: left;
+}
+
+/* Genos */
+
+.genos {
+    font-family: genos;
+    text-align: left;
+}
+
+.genos h1 {
+    padding-left: 300px;
+}
+
+.genos p {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+/* Quattrocento */
+
+
+.quattrocento {
+    font-family: quattrocento;
+}
+
+.quattrocento h1 {
+    padding-left: 300px;
+}
+
+.quattrocento p {
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: left;
+}
+
