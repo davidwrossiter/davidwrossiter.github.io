@@ -1,0 +1,405 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #141414;
+}
+
+* {
+    font-family: "Plus Jakarta Sans";
+}
+
+/* header */
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.header-elements {
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+}
+
+.header-elements p {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 400; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+hr {
+    opacity: 30%;
+}
+
+
+/* landing page */
+
+.line {
+    background-color: white;
+    height: 1px;
+    opacity: 40%;
+}
+
+.landing-page {
+    color: white;
+    display: flex;
+    padding-top:0px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.landing-left-card h1 {
+    font-size: 70px;
+    margin: 0px;
+    padding-left: 100px;
+
+    
+}
+
+.landing-left-card p {
+    padding-left: 100px;
+}
+
+.landing-right-card img {
+    margin-top: 60px;
+    padding-right: 100px;
+}
+
+.sql {
+    margin-top: 70px;
+}
+
+.html,
+.css,
+.sql,
+.javascript {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    justify-content: center;
+    
+}
+
+/* languages */
+
+.language-image img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.languages {
+    margin-top: 160px;
+}
+
+.languages-container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.languages h1 {
+    margin-top: 10px;
+
+}
+
+.languages h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.languages img {
+    width: 20px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 80px;
+}
+
+.languages-left-card {
+    width: 400px;
+    margin-left: 200px;
+}
+
+.languages-right-card {
+    width: 400px;
+    margin-right: 200px;
+}
+
+/* experience */
+
+
+.software-developer,
+.math-tutor,
+.surf-coach {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    justify-content: center;
+    
+}
+
+.surf-coach {
+    margin-top: 70px;
+}
+
+.experience-image img {
+    margin-top: 0px;
+}
+
+.experience {
+    margin-top: 20px;
+}
+
+.experience-container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.experience h1 {
+    margin-top: 10px;
+
+}
+
+
+.experience h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.experience img {
+    width: 20px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 80px;
+}
+
+.experience-left-card {
+    width: 400px;
+    margin-left: 200px;
+}
+
+.experience-right-card {
+    width: 400px;
+    margin-right: 200px;
+}
+
+.experience-image img {
+    margin: 0px;
+    width: 100%;
+}
+
+/* other skills */
+
+.typing {
+    margin-top: 70px;
+}
+
+.music-production,
+.typing {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    justify-content: center;
+    
+}
+
+.other-skills-image img {
+    margin-top: 0px;
+}
+
+.other-skills {
+    margin-top: 20px;
+}
+
+.other-skills-container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.other-skills h1 {
+    margin-top: 10px;
+
+}
+
+.other-skills h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.other-skills img {
+    width: 20px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 80px;
+}
+
+.other-skills-left-card {
+    width: 400px;
+    margin-left: 200px;
+}
+
+.other-skills-right-card {
+    width: 400px;
+    margin-right: 200px;
+}
+
+.other-skills-image img {
+    margin: 0px;
+    width: 100%;
+}
+
+/* contact me */ 
+
+.footer-container {
+    margin-top: 00px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-right-card img {
+    width: 600px;   
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.footer-left-card {
+    margin-left: 100px;
+}
+
+footer h1 {
+    color: white;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container {
+    display: flex;
+}
+
+
+
+.view {
+    display: flex;
+    width: 300px;
+    background-color: white;
+    margin-top: 10px;
+    height: 40px;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 12px;
+
+}
+
+#email {
+    margin-top: 0px;
+    
+}
+
+footer a {
+    padding-left: 30px;
+ }
+
+.contact-container img {
+    padding-left: 30px;
+}
+
+.contact-buttons {
+    margin-top: 0px;
+}
+
+#view-email:hover,
+#view-phone:hover,
+#view-socials:hover {
+    background-color: #005DB2;
+}
+
+#view-phone:active,
+#view-socials:active,
+#view-email:active {
+    background-color: #01488A;
+}
+
+#view-email,
+#view-phone,
+#view-socials {
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    border: none;
+    background-color: #0082F9;
+    color: white;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#view-email {
+    margin-top: 0px;
+}
+
+
+footer h1 {
+    font-size: 90px;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+footer hr {
+    background-color: white;
+}
+
+#copyright {
+    color: grey;
+    font-size: 10px;
+    float: right;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+#line2 {
+    margin-top: 100px;
+}
