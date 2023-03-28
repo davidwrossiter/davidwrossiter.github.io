@@ -63,7 +63,7 @@ hr {
 }
 
 .landing-left-card h1 {
-    font-size: 70px;
+    font-size: 74px;
     margin: 0px;
     padding-left: 100px;
 
@@ -130,7 +130,7 @@ hr {
 }
 
 .languages img {
-    width: 20px;
+    width: 32px;
     padding: 0px;
     margin: 0px;
     margin-top: 80px;
@@ -142,6 +142,7 @@ hr {
 }
 
 .languages-right-card {
+    margin-top: 45px;
     width: 400px;
     margin-right: 200px;
 }
@@ -195,7 +196,7 @@ hr {
 }
 
 .experience img {
-    width: 20px;
+    width: 32px;
     padding: 0px;
     margin: 0px;
     margin-top: 80px;
@@ -263,7 +264,7 @@ hr {
 }
 
 .other-skills img {
-    width: 20px;
+    width: 32px;
     padding: 0px;
     margin: 0px;
     margin-top: 80px;
